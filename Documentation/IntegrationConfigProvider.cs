@@ -85,7 +85,7 @@ namespace QueueIT.KnownUserV3.SDK.IntegrationConfigLoader
                     ++tryCount;
                     if (tryCount >= 5)
                     {
-                        //Use your favorit logging framework to log the exceptoin
+                        //Use your favorit logging framework to log the exception
                         break;
                     }
                     if (!init)
